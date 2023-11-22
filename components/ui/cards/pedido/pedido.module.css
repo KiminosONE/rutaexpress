@@ -1,0 +1,22 @@
+.pedido {
+    border: 1px solid;
+    border-radius: 13px;
+    padding: 2vh 2vh;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 38%;
+}
+
+.pedido>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: .5vh;
+}
+
+.pedido>div:nth-child(3) {
+    display: flex;
+    gap: 1vh;
+    flex-wrap: wrap;
+}

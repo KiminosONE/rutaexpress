@@ -1,0 +1,24 @@
+.homeSection {}
+
+.cardHome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 4vh 0;
+}
+
+.cardHome>div {
+    width: 47%;
+}
+
+.cardHome>div:nth-child(1) {
+    border-radius: 13px;
+    overflow: hidden;
+    height: 35vh;
+}
+
+.cardHome>div:nth-child(2) {}
+
+.cardHome>div:nth-child(2) h3 {
+    margin: 0 0 2vh 0;
+}

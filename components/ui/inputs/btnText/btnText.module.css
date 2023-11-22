@@ -1,0 +1,8 @@
+.btnText {
+    background-color: var(--color-primario);
+    color: aliceblue;
+    border: none;
+    padding: 1vh 3vh;
+    border-radius: 8px;
+    font-size: var(--font-size-p);
+}

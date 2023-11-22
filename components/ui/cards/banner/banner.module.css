@@ -1,0 +1,29 @@
+.banner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    margin: 2vh 0 4vh 0;
+    color: aliceblue;
+    width: 100%;
+}
+
+.banner>div:first-child {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 13px;
+}
+
+.banner>div:nth-child(2) {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10vh;
+    width: 100%;
+}
+
+.banner>div:nth-child(2) h1 {
+    font-size: 4.2vh;
+}

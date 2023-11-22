@@ -1,0 +1,47 @@
+.header {
+    background-color: var(--color-secundario);
+    color: aliceblue;
+}
+
+.header a {
+    color: aliceblue;
+}
+
+.headerInterior {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 0;
+    align-items: center;
+}
+
+.headerInterior ul {
+    display: flex;
+    gap: 2vh;
+    font-size: 17px;
+}
+
+.headerLeft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4vh;
+}
+
+.avatarLabel {
+    display: flex;
+    align-items: center;
+    gap: 1.5vh;
+}
+
+.avatarLabel>div:first-child {
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatarLabel>div:nth-child(2) {}
+
+.avatarLabel>div:nth-child(2) p:first-child {
+    font-size: 16px;
+}

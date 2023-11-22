@@ -1,0 +1,38 @@
+.lineaRastreo {
+    width: 100%;
+}
+
+.lineaTemporar {
+    width: 83%;
+    margin: 0 auto;
+    height: 5px;
+    background: antiquewhite;
+    display: flex;
+    align-items: center;
+}
+
+.lineaPunto {
+    width: inherit;
+    background: #7b7676;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.punto {
+    width: 20px;
+    height: 20px;
+    background: #7b7676;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.punto h3 {
+    width: max-content;
+    bottom: -35px;
+    position: absolute;
+}

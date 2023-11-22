@@ -1,0 +1,32 @@
+.inputAside {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    padding: 0 5vh 0 0;
+    border-right: 2px solid #757575;
+}
+
+.inputAside>div {
+    border-radius: 13px;
+    overflow: hidden;
+    height: 30vh;
+}
+
+.cardRastreo {
+    margin: 0 0 4vh 0;
+}
+
+.cardRastreo h2 {
+    margin: 0 0 2.5vh 0;
+}
+
+.infoPedido {
+    display: flex;
+    gap: 8vh;
+}
+
+.infoPedido>div {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}

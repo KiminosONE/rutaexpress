@@ -1,0 +1,33 @@
+.formExp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formExp>div {
+    width: 47%;
+}
+
+.formExp>div:first-child {
+    border-radius: 13px;
+    overflow: hidden;
+    height: 50vh;
+}
+
+.formExp>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.formExp>div:nth-child(2) h2 {
+    color: var(--color-primario);
+    margin: 0 0 1.5vh 0;
+}
+
+.formExp>div:nth-child(2)>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3vh 0 0 0;
+}
